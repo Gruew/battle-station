@@ -1,22 +1,20 @@
 var GruewContstants = {
     appName: 'gruewApp',
 
-    serverUrl: 'http://localhost:9000/',
-
     controllers: {
         userController: 'UserController',
         cropController: 'CropController'
     },
 
     templateUrls: {
-        users1: 'js/views/users1.html',
-        users2: 'js/views/users2.html',
-        crops: 'js/views/crops.html'
+        users1: 'views/users1.html',
+        users2: 'views/users2.html',
+        crops: 'views/crops.html'
     },
 
     serverUrls: {
-        allUsers: this.serverUrl + 'all-users',
-        allCrops: this.serverUrl + 'all-crops'
+        allUsers: 'http://localhost:9000/all-users',
+        allCrops: 'http://localhost:9000/all-crops'
     }
 };
 
