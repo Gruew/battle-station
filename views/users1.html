@@ -1,0 +1,18 @@
+<div ng-controller="UserController">
+
+    <table class="table table-striped">
+        <thead>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="user in users">
+                <td>{{user.firstName}}</td>
+                <td>{{user.lastName}}</td>
+                <td>{{user.email}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

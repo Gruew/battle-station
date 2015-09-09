@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cucumber": "latest"
+  },
+  "dependencies": {
+    "cucumber": "^0.5.2",
+    "underscore": "^1.8.3",
+    "zombie": "^4.1.0"
+  }
+}
